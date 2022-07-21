@@ -4,6 +4,26 @@
 
 .hero-box {
   display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+
+.hero-control {
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 100px;
+    width: 548px;
+    height: 204px;
+  }
 }
 
 .hero__title {
@@ -13,9 +33,21 @@
   font-weight: 700;
   font-size: 44px;
   line-height: 1.18;
-  /* or 117% */
 
   color: #000000;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 450px;
+    margin-bottom: 20px;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.13;
+  }
 }
 
 .hero__text {
@@ -28,6 +60,18 @@
   /* or 23px */
 
   color: #000000;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 450px;
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4;
+  }
 }
 
 .hero-btn {
@@ -85,7 +129,7 @@
   position: relative;
   padding: 15px 30px;
   border: 1px solid;
-  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image: linear-gradient(180deg, #334ff0, #514ff0, #6d4ff0, #a94ff0);
   border-image-slice: 1;
   margin: 10px 20px;
   font-family: "Montserrat", sans-serif;
@@ -103,7 +147,7 @@
     width: 100%;
     z-index: -1;
     color: white;
-    background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+    background: linear-gradient(180deg, #334ff0, #514ff0, #6d4ff0, #a94ff0);
     transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
@@ -118,6 +162,7 @@
 }
 
 .hero-btn__text {
+  color: #a94fab;
 }
 
 .hero-img {
@@ -126,6 +171,27 @@
 }
 
 .hero-img__photo {
+  z-index: 10;
   height: 300px;
   width: 300px;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 865px;
+    height: 644.77px;
+  }
+}
+
+.hero-img__photo-secondary {
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    z-index: 0;
+    position: absolute;
+    width: 779.57px;
+    height: 614.53px;
+  }
 }

@@ -225,6 +225,21 @@ img {
 
 .hero-box {
   display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .hero-box {
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-control {
+    padding-top: 100px;
+    width: 548px;
+    height: 204px;
+  }
 }
 
 .hero__title {
@@ -234,8 +249,18 @@ img {
   font-weight: 700;
   font-size: 44px;
   line-height: 1.18;
-  /* or 117% */
   color: #000000;
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    width: 450px;
+    margin-bottom: 20px;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.13;
+  }
 }
 
 .hero__text {
@@ -247,6 +272,16 @@ img {
   line-height: 142.5%;
   /* or 23px */
   color: #000000;
+}
+@media screen and (min-width: 1200px) {
+  .hero__text {
+    width: 450px;
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4;
+  }
 }
 
 .hero-btn {
@@ -262,7 +297,7 @@ img {
   position: relative;
   padding: 15px 30px;
   border: 1px solid;
-  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image: linear-gradient(180deg, #334ff0, #514ff0, #6d4ff0, #a94ff0);
   border-image-slice: 1;
   margin: 10px 20px;
   font-family: "Montserrat", sans-serif;
@@ -280,7 +315,7 @@ img {
   width: 100%;
   z-index: -1;
   color: white;
-  background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  background: linear-gradient(180deg, #334ff0, #514ff0, #6d4ff0, #a94ff0);
   transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .hero-btn__button:hover {
@@ -292,12 +327,50 @@ img {
   height: 100%;
 }
 
+.hero-btn__text {
+  color: #a94fab;
+}
+
 .hero-img {
   display: flex;
   justify-content: center;
 }
 
 .hero-img__photo {
+  z-index: 10;
   height: 300px;
   width: 300px;
+}
+@media screen and (min-width: 1200px) {
+  .hero-img__photo {
+    width: 865px;
+    height: 644.77px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-img__photo-secondary {
+    z-index: 0;
+    position: absolute;
+    width: 779.57px;
+    height: 614.53px;
+  }
+}
+
+.tabble__list {
+  display: flex;
+}
+
+.tabble__item {
+  display: flex;
+  justify-content: space-around;
+  width: 526px;
+  height: 203px;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 19px;
+}
+
+.tabble__text {
+  padding-top: 20px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+.tabble__list {
+  display: flex;
+}
+
+.tabble__item {
+  display: flex;
+  justify-content: space-around;
+  width: 526px;
+  height: 203px;
+
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 19px;
+}
+
+.tabble__text {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.tabble__tittle {
+}
+
+.tabble__box {
+}
