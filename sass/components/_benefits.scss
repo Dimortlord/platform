@@ -1,0 +1,172 @@
+.benefits {
+  background: center/cover rgba(32, 8, 59, 0.75);
+  background-image: url(../image/benefits.jpg);
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    background: center/cover url(../image/background.jpg) no-repeat;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.benefits-control__icon {
+  fill: white;
+}
+
+.control-benefits {
+  width: 320px;
+  height: 300px;
+
+  @media screen and (min-width: 375px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 577.05px;
+    height: 473.14px;
+  }
+}
+
+.benefits-card {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 300px;
+  height: 275px;
+
+  border: 1.68px solid;
+
+  border-image-source: linear-gradient(
+    113.62deg,
+    #616161 0%,
+    rgba(255, 255, 255, 0) 96.25%
+  );
+
+  border-image-slice: 1;
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(84.6282px);
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 577.05px;
+    height: 473.14px;
+    left: 70%;
+  }
+}
+
+.benefits__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25.87px;
+  line-height: 1.35;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 458.45px;
+    font-size: 44.5093px;
+    line-height: 1.36;
+  }
+}
+
+.benefits__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.6415px;
+  line-height: 1.78;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 458.45px;
+    font-size: 20.0292px;
+    line-height: 1.8;
+  }
+}
+
+.benefits-control-first {
+  display: flex;
+  flex-direction: column;
+  padding-top: 33px;
+  padding-left: 31px;
+  margin-bottom: 26px;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 58px;
+    padding-left: 71px;
+  }
+}
+
+.benefits-control-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-left: 71px;
+    justify-content: flex-start;
+  }
+}
+
+.benefits-control__link {
+  margin-right: 25.87px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.348px;
+  line-height: 1.5;
+
+  color: #ffffff;
+
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 17.8037px;
+    line-height: 1.58;
+  }
+}
+
+.benefits-control__link-secondary {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.348px;
+  line-height: 1.5;
+
+  color: #ffffff;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 17.8037px;
+    line-height: 1.58;
+  }
+  cursor: pointer;
+}
