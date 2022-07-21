@@ -10,7 +10,7 @@
   top: 0;
   left: 0;
   z-index: 50;
-  background: #01204c drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: white;
 }
 
 .header:before {
@@ -20,7 +20,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(32, 8, 59, 0.75);
+  background: white;
   backdrop-filter: blur(184.612px);
   z-index: 2;
 }
@@ -50,7 +50,7 @@
   font-size: 16.1279px;
   line-height: 20px;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -96,7 +96,7 @@
   font-size: 19.8983px;
   line-height: 25px;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
 }
 
 @media (max-width: 767px) {
@@ -117,7 +117,7 @@
     top: 9px;
     transition: all 0.3s ease 0s;
 
-    background: #ffffff;
+    background: black;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 10px;
   }
@@ -133,7 +133,7 @@
     transition: all 0.3s ease 0s;
     border-radius: 10px;
 
-    background: #ffffff;
+    background: black;
     transform: matrix(-1, 0, 0, 1, 0, 0);
   }
 
