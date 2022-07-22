@@ -79,7 +79,7 @@ img {
 .header__logo {
   display: flex;
   z-index: 3;
-  font-family: "Orbitron";
+  font-family: "PT Serif";
   font-style: normal;
   font-weight: 700;
   font-size: 16.1279px;
@@ -107,6 +107,7 @@ img {
 .header__list {
   display: flex;
   position: relative;
+  align-items: center;
   z-index: 2;
 }
 
@@ -120,7 +121,7 @@ img {
 }
 
 .header__link {
-  font-family: "Orbitron";
+  font-family: "PT Serif";
   font-style: normal;
   font-weight: 700;
   font-size: 19.8983px;
@@ -217,6 +218,50 @@ img {
   fill: #ff56f6;
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
   backdrop-filter: blur(212.248px);
+}
+
+.button-7 {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 15px;
+  color: #383d48;
+}
+
+.button-7 span {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 25px;
+  color: black;
+  display: block;
+  overflow: hidden;
+  max-width: 0;
+  opacity: 0;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  line-height: 1;
+  transition: 0.4s ease;
+}
+
+.button-7:after {
+  content: url("../image/icon12.png");
+  font-family: Linearicons-Free;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 22px;
+}
+
+.button-7:hover span {
+  max-width: 150px;
+  opacity: 1;
+  margin-right: 6px;
 }
 
 .hero {
@@ -518,4 +563,135 @@ img {
   border: 1px solid #ffffff;
   box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.05);
   border-radius: 37px;
+}
+
+.portfolio {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-info__title {
+    width: 600px;
+    margin-bottom: 20px;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.13;
+  }
+}
+
+.portfolio-info__text {
+  margin-bottom: 20px;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 142.5%;
+  /* or 23px */
+  color: #000000;
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-info__text {
+    width: 500px;
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4;
+  }
+}
+
+.portfolio-info__item {
+  margin-bottom: 20px;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 142.5%;
+  /* or 23px */
+  color: #000000;
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-info__item {
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4;
+  }
+}
+
+.portfolio-info__btn {
+  background: #1d1b26;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #334ff0, #514ff0, #6d4ff0, #a94ff0);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.portfolio-info__btn:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  z-index: -1;
+  color: white;
+  background: linear-gradient(180deg, #334ff0, #514ff0, #6d4ff0, #a94ff0);
+  transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.portfolio-info__btn:hover {
+  background: rgba(255, 255, 255, 0);
+}
+.portfolio-info__btn:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
+
+.portfolio-info__item {
+  display: flex;
+  align-items: baseline;
+}
+
+.portfolio-info__vector {
+  width: 18px;
+  height: 18px;
+  margin-right: 20px;
+}
+
+.portfolio-desk {
+  width: 270px;
+  height: 174px;
+  background: #a200ff;
+  box-shadow: 0px 4px 22px rgba(45, 42, 207, 0.04);
+  border-radius: 20px;
+}
+
+.portfolio-desk__title {
+  padding-top: 34px;
+  padding-left: 75px;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #3d3d3f;
+}
+
+.portfolio-desk__list {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
