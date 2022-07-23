@@ -119,16 +119,19 @@
 }
 
 .portfolio-desk {
+  position: relative;
+  top: -15%;
+  left: -10%;
   width: 270px;
   height: 174px;
-  background: #a200ff;
+  background: #6d6775;
   box-shadow: 0px 4px 22px rgba(45, 42, 207, 0.04);
   border-radius: 20px;
 }
 
 .portfolio-desk__title {
   padding-top: 34px;
-  padding-left: 75px;
+  padding-left: 120px;
   font-family: "PT Serif";
   font-style: normal;
   font-weight: 500;
@@ -140,4 +143,47 @@
 
 .portfolio-desk__list {
   display: flex;
+  justify-content: center;
+}
+
+.portfolio-desk__img {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.portfolio-desk__text-secondary {
+  padding-left: 120px;
+  margin-bottom: 15px;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+
+  color: #3d3d3f;
+}
+
+.portfolio-desk__text {
+}
+
+.portfolio-desk__item {
+  margin-right: 10px;
+}
+
+.portfolio-img-background {
+  top: 20%;
+  left: -8%;
+  z-index: -1;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+}
+
+.portfolio-img {
+  z-index: 100;
+}
+
+.portfolio-photo {
+  position: relative;
 }
