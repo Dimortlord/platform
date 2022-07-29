@@ -5,11 +5,16 @@
   justify-content: space-evenly;
 }
 
+.portfolio-info {
+  padding-left: 100px;
+}
+
 .portfolio-info__title {
   @media screen and (min-width: 768px) {
   }
 
   @media screen and (min-width: 1200px) {
+    padding-top: 100px;
     width: 600px;
     margin-bottom: 20px;
     font-family: "Oswald";
@@ -173,7 +178,7 @@
 
 .portfolio-img-background {
   top: 20%;
-  left: -8%;
+  left: -25%;
   z-index: -1;
   position: absolute;
   width: 600px;

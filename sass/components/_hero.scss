@@ -76,7 +76,7 @@
 
 .hero-btn {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 // .hero-btn__button {
@@ -131,7 +131,7 @@
   border: 1px solid;
   border-image: linear-gradient(180deg, #334ff0, #514ff0, #6d4ff0, #a94ff0);
   border-image-slice: 1;
-  margin: 10px 20px;
+  margin-right: 20px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   overflow: hidden;
