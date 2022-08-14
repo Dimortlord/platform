@@ -34,7 +34,7 @@
 
 .card {
   padding: 50px;
-  background: #cacaca;
+  background: #03bbf3a8;
   border: 2px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   border-radius: 25px;
@@ -81,7 +81,7 @@ a.cta_btn {
   width: 100%;
   display: inline-block;
   text-align: center;
-  background: #0075ff;
+  background: #ffc40f;
   border-radius: 29px;
   padding: 20px 0;
   font-family: "PT Serif";
@@ -97,7 +97,7 @@ a.cta_btn:hover {
 
 @media only screen and (max-width: 1024px) {
   .grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2%;
   }
 }

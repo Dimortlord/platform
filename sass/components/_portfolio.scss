@@ -1,15 +1,51 @@
 .portfolio {
   padding-top: 50px;
   display: flex;
+  flex-direction: column;
 
-  justify-content: space-evenly;
+  @media screen and (min-width: 420px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+}
+
+.portfolio-control {
+  @media screen and (min-width: 420px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
 
 .portfolio-info {
-  padding-left: 100px;
+  @media screen and (min-width: 420px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-left: 100px;
+  }
 }
 
 .portfolio-info__title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
   @media screen and (min-width: 768px) {
   }
 
@@ -26,6 +62,7 @@
 }
 
 .portfolio-info__text {
+  max-width: 350px;
   margin-bottom: 20px;
   font-family: "PT Serif";
   font-style: normal;
@@ -124,14 +161,27 @@
 }
 
 .portfolio-desk {
+  z-index: 10000;
   position: relative;
   top: -15%;
-  left: -10%;
-  width: 270px;
+
+  width: 350px;
   height: 174px;
-  background: #6d6775;
+  background: #ffc40f;
   box-shadow: 0px 4px 22px rgba(45, 42, 207, 0.04);
   border-radius: 20px;
+
+  @media screen and (min-width: 420px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    left: -10%;
+    width: 270px;
+    height: 174px;
+  }
 }
 
 .portfolio-desk__title {
@@ -143,7 +193,7 @@
   font-size: 20px;
   line-height: 32px;
 
-  color: #3d3d3f;
+  color: white;
 }
 
 .portfolio-desk__list {
@@ -166,7 +216,7 @@
   font-size: 16px;
   line-height: 1.2;
 
-  color: #3d3d3f;
+  color: white;
 }
 
 .portfolio-desk__text {
@@ -176,19 +226,58 @@
   margin-right: 10px;
 }
 
+.portfolio-photo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 420px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-right: 100px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 100px;
+  }
+}
+
 .portfolio-img-background {
-  top: 20%;
-  left: -25%;
-  z-index: -1;
+  width: 400px;
+  height: 400px;
   position: absolute;
-  width: 600px;
-  height: 600px;
+  @media screen and (min-width: 420px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    top: 20%;
+    left: -25%;
+    z-index: -1;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+  }
 }
 
 .portfolio-img {
   z-index: 100;
-}
+  width: 400px;
+  height: 400px;
 
-.portfolio-photo {
-  position: relative;
+  @media screen and (min-width: 420px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 600px;
+    height: 600px;
+  }
 }

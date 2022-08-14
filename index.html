@@ -99,20 +99,6 @@
         </div>
       </section>
       <section class="tabble">
-        <!-- <div class="tabble-menu">
-          <h2 class="tabble-menu__title">Направления курсов</h2>
-          <ul class="tabble__list">
-            <li class="tabble__item">
-              <div class="tabble-box">
-                <p class="tabble__text">300 курсов</p>
-                <h3 class="tabble__tittle">Программирование</h3>
-              </div>
-              <div class="tabble-img">
-                <img src="./image/user.png" />
-              </div>
-            </li>
-          </ul>
-        </div> -->
         <div class="tabble-block">
           <h2 class="tabble-block__title">Всі курси</h2>
           <div class="post-wrap">
@@ -127,7 +113,7 @@
                   </p>
                 </div>
                 <div class="item-footer">
-                  <a href="#" class="link"><span>Подробнее</span></a>
+                  <a href="#popup" class="link"><span>Подробнее</span></a>
                 </div>
               </div>
             </div>
@@ -261,54 +247,86 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="portfolio">
-        <div class="portfolio-photo">
-          <img class="portfolio-img" src="/image/doc.png" />
-          <img class="portfolio-img-background" src="/image/picture.png" />
-          <div class="portfolio-desk">
-            <img class="portfolio-desk__img" src="/image/mini.png" />
-            <h5 class="portfolio-desk__title">Dr.Kate</h5>
-            <p class="portfolio-desk__text-secondary">Carddiologist (MBBS)</p>
-            <ul class="portfolio-desk__list">
-              <li class="portfolio-desk__item">
-                <h7 class="portfolio-desk__tittle">Experience</h7>
-                <p class="portfolio-desk__text">5 Years</p>
-              </li>
-              <li class="portfolio-desk__item">
-                <h7 class="portfolio-desk__tittle">Experience</h7>
-                <p class="portfolio-desk__text">5 Years</p>
-              </li>
-              <li class="portfolio-desk__item">
-                <h7 class="portfolio-desk__tittle">Experience</h7>
-                <p class="portfolio-desk__text">5 Years</p>
-              </li>
-            </ul>
-            <p class="portfolio-desk__location"></p>
+        <div id="popup" class="popup">
+          <div class="popup__body">
+            <a href="#tabble" class="popup__area"></a>
+            <div class="popup__content">
+              <a href="#tabble" class="popup__close">Х</a>
+              <div class="popup_title">Это модальное окно</div>
+              <div class="popup_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
+                excepturi quos alias omnis soluta blanditiis commodi assumenda
+                ex iste, dolorem officiis facere quidem! Ea aut laudantium
+                aperiam dolores veniam blanditiis. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Hic excepturi quos alias omnis
+                soluta blanditiis commodi assumenda ex iste, dolorem officiis
+                facere quidem! Ea aut laudantium aperiam dolores veniam
+                blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Hic excepturi quos alias omnis soluta blanditiis commodi
+                assumenda ex iste, dolorem officiis facere quidem! Ea aut
+                laudantium aperiam dolores veniam blanditiis. Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit. Hic excepturi quos alias
+                omnis soluta blanditiis commodi assumenda ex iste, dolorem
+                officiis facere quidem! Ea aut laudantium aperiam dolores veniam
+                blanditiis.
+              </div>
+            </div>
           </div>
         </div>
-        <div class="portfolio-info">
-          <h3 class="portfolio-info__title">Студентка ВНЗ Богомольца</h3>
-          <p class="portfolio-info__text">
-            Цілеспрямована студентка-ментор, яка вкладує діло та душу в свое
-            діло, щоб навчити інших. Організатор наукових конференцій та
-            староста своєї групи
-          </p>
-          <ul class="portfolio-info__list">
-            <li class="portfolio-info__item">
-              <img class="portfolio-info__vector" src="/image/vector.png" />
-              <p class="portfolio-info__text">Тільки цінна інфорація</p>
-            </li>
-            <li class="portfolio-info__item">
-              <img class="portfolio-info__vector" src="/image/vector.png" />
-              <p class="portfolio-info__text">Комфортні уроки</p>
-            </li>
-            <li class="portfolio-info__item">
-              <img class="portfolio-info__vector" src="/image/vector.png" />
-              <p class="portfolio-info__text">Підтримка під час навчання</p>
-            </li>
-          </ul>
-          <button class="portfolio-info__btn">Explore specialists</button>
+      </section>
+      <section class="portfolio">
+        <div class="container">
+          <div class="portfolio-control">
+            <div class="portfolio-photo">
+              <img class="portfolio-img" src="/image/doc_3.png" />
+              <!-- <img class="portfolio-img-background" src="/image/picture.png" /> -->
+              <div class="portfolio-desk">
+                <img class="portfolio-desk__img" src="/image/mini.png" />
+                <h5 class="portfolio-desk__title">Dr.Kate</h5>
+                <p class="portfolio-desk__text-secondary">
+                  Carddiologist (MBBS)
+                </p>
+                <ul class="portfolio-desk__list">
+                  <li class="portfolio-desk__item">
+                    <h7 class="portfolio-desk__tittle">Experience</h7>
+                    <p class="portfolio-desk__text">5 Years</p>
+                  </li>
+                  <li class="portfolio-desk__item">
+                    <h7 class="portfolio-desk__tittle">Experience</h7>
+                    <p class="portfolio-desk__text">5 Years</p>
+                  </li>
+                  <li class="portfolio-desk__item">
+                    <h7 class="portfolio-desk__tittle">Experience</h7>
+                    <p class="portfolio-desk__text">5 Years</p>
+                  </li>
+                </ul>
+                <p class="portfolio-desk__location"></p>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3 class="portfolio-info__title">Студентка ВНЗ Богомольца</h3>
+              <p class="portfolio-info__text">
+                Цілеспрямована студентка-ментор, яка вкладує діло та душу в свое
+                діло, щоб навчити інших. Організатор наукових конференцій та
+                староста своєї групи
+              </p>
+              <ul class="portfolio-info__list">
+                <li class="portfolio-info__item">
+                  <img class="portfolio-info__vector" src="/image/vector.png" />
+                  <p class="portfolio-info__text">Тільки цінна інфорація</p>
+                </li>
+                <li class="portfolio-info__item">
+                  <img class="portfolio-info__vector" src="/image/vector.png" />
+                  <p class="portfolio-info__text">Комфортні уроки</p>
+                </li>
+                <li class="portfolio-info__item">
+                  <img class="portfolio-info__vector" src="/image/vector.png" />
+                  <p class="portfolio-info__text">Підтримка під час навчання</p>
+                </li>
+              </ul>
+              <button class="portfolio-info__btn">Explore specialists</button>
+            </div>
+          </div>
         </div>
       </section>
       <section class="reviews">
@@ -529,10 +547,10 @@
         <div class="container">
           <div class="forms-box">
             <div class="forms-box__news">
-              <p class="forms-box__text">Получайте все новости</p>
+              <p class="forms-box__text">Бонус</p>
             </div>
             <p class="forms-box__text-secondary">
-              Подпишитесь на email рассылку
+              Приведи друга и получи скидку 10% на курс
             </p>
             <form class="form-phone">
               <label class="form-label">
@@ -547,12 +565,14 @@
                 Замовити консультацію
               </button>
             </form>
-            <img
-              class="forms-img"
-              src="./image/form.png"
-              width="500"
-              height="301"
-            />
+            <div class="forms-gift">
+              <img
+                class="forms-img"
+                src="./image/gift.png"
+                width="250"
+                height="200"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -685,48 +705,64 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="footer-logo">
-          <img class="footer-img" />
-          <p footer-text>Текст</p>
-          <form class="footer-form">
-            <label class="footer-label"></label>
-          </form>
-        </div>
-        <div class="footer-menu"></div>
-        <div class="footer-social">
-          <body>
-            <div class="wrapper">
-              <!--        -->
-              <div class="button">
-                <div class="icon">
-                  <img class="wrapper-img" src="/image/facebook.png" /><i
-                    class="fab fa-facebook-f"
-                  ></i>
+        <div class="footer-control">
+          <div class="footer-logo">
+            <a href="#" class="footer-logo__link"
+              >MedicalCourse<span class="footer__logo-span"></span>
+            </a>
+            <div class="footer-social">
+              <div class="wrapper">
+                <!--        -->
+                <div class="button">
+                  <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                  </div>
+                  <span>Facebook</span>
                 </div>
-                <span>Facebook</span>
-              </div>
-              <!--        -->
-              <div class="button">
-                <div class="icon"><i class="fab fa-twitter"></i></div>
-                <span>Twitter</span>
-              </div>
-              <!--        -->
-              <div class="button">
-                <div class="icon"><i class="fab fa-instagram"></i></div>
-                <span>instagram</span>
-              </div>
-              <!--          -->
-              <div class="button">
-                <div class="icon"><i class="fab fa-github"></i></div>
-                <span>Github</span>
-              </div>
-              <!--        -->
-              <div class="button">
-                <div class="icon"><i class="fab fa-youtube"></i></div>
-                <span>Youtube</span>
+                <!--        -->
+
+                <!--        -->
+                <div class="button">
+                  <div class="icon"><i class="fab fa-instagram"></i></div>
+                  <span>instagram</span>
+                </div>
+                <!--          -->
+
+                <!--        -->
+                <div class="button">
+                  <div class="icon"><i class="fab fa-youtube"></i></div>
+                  <span>Youtube</span>
+                </div>
               </div>
             </div>
-          </body>
+            <form class="footer-form">
+              <label class="footer-label"></label>
+            </form>
+          </div>
+          <div class="footer-menu">
+            <ul class="footer-menu__list">
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Курси</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Про нас</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Контакти</a>
+              </li>
+            </ul>
+            <div class="footer-back">
+              <a class="footer-back__text">В начало</a>
+              <img
+                class="footer-back__img"
+                src="./image/back.png"
+                alt="back"
+                width="20"
+                height="20"
+              />
+            </div>
+          </div>
+          <hr class="footer-line" />
         </div>
       </div>
     </footer>
@@ -739,5 +775,9 @@
     <script type="text/javascript" src="/plugins/slick/slick.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/footer-menu.js"></script>
+    <script
+      src="https://kit.fontawesome.com/03d8f491f1.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
