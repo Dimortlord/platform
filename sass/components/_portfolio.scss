@@ -165,13 +165,15 @@
   position: relative;
   top: -15%;
 
-  width: 350px;
+  width: 280px;
   height: 174px;
   background: #ffc40f;
   box-shadow: 0px 4px 22px rgba(45, 42, 207, 0.04);
   border-radius: 20px;
 
   @media screen and (min-width: 420px) {
+    width: 350px;
+    height: 174px;
   }
 
   @media screen and (min-width: 768px) {
@@ -267,10 +269,12 @@
 
 .portfolio-img {
   z-index: 100;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 200px;
 
   @media screen and (min-width: 420px) {
+    width: 400px;
+    height: 400px;
   }
 
   @media screen and (min-width: 768px) {
