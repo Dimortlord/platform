@@ -1577,4 +1577,124 @@ a.cta_btn:hover {
   padding-top: 20px;
   margin-bottom: 50px;
   display: flex;
+}
+
+.cards {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.cards-box {
+  padding: 40px;
+  width: auto;
+  display: flex;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  background: #fff;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.05);
+  border-radius: 37px;
+  margin-bottom: 50px;
+}
+
+.cards-box__title {
+  font-size: 30px;
+  font-style: 700;
+  align-items: center;
+}
+
+.cards-box__img-left {
+  margin-bottom: 30px;
+}
+
+.cards-box__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  background: #49c8d0;
+  padding: 40px;
+  border-radius: 19px;
+  margin-right: 200px;
+}
+
+.cards-box__tittle-left {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.cards-box__img-right {
+  margin-bottom: 30px;
+}
+
+.cards-box__right {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  background: #49c8d0;
+  padding: 40px;
+  border-radius: 19px;
+}
+
+.cards-box__tittle-right {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards-box__text-first {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.cards-box__text-second {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.cards-box__text-thirt {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.cards-box__text-fourth {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.cards-box__text-five {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
 }/*# sourceMappingURL=main.css.map */
