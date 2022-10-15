@@ -82,9 +82,9 @@ img {
   font-family: "PT Serif";
   font-style: normal;
   font-weight: 700;
-  font-size: 16.1279px;
+  font-size: 24px;
   line-height: 20px;
-  color: black;
+  color: #43c59e;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 @media screen and (min-width: 768px) {
@@ -650,7 +650,6 @@ img {
 @media screen and (min-width: 1200px) {
   .portfolio-control {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
   }
 }
@@ -834,7 +833,6 @@ img {
 .portfolio-photo {
   display: flex;
   align-items: center;
-  flex-direction: column;
   position: relative;
   margin-bottom: 40px;
 }
@@ -872,7 +870,7 @@ img {
 }
 @media screen and (min-width: 420px) {
   .portfolio-img {
-    width: 400px;
+    width: 360px;
     height: 400px;
   }
 }
@@ -1070,7 +1068,6 @@ img {
 .container {
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 2rem;
   height: 100%;
 }
 
@@ -1184,7 +1181,7 @@ a.cta_btn:hover {
 
 .forms-box {
   position: relative;
-  width: 300px;
+  width: 280px;
   height: 300px;
   background: #ffffff;
   border: 1px solid #dcdcdc;
