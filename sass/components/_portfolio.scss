@@ -62,13 +62,15 @@
 }
 
 .portfolio-info__text {
-  max-width: 350px;
+  text-align: center;
+  width: 350px;
   margin-bottom: 20px;
   font-family: "PT Serif";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 142.5%;
+  text-align: inherit;
   /* or 23px */
 
   color: #000000;
@@ -86,7 +88,29 @@
   }
 }
 
+.portfolio-info__text-main {
+  
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 40px;
+    
+  }
+
+  .portfolio-info__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+
+
 .portfolio-info__item {
+
+  width: 180px;
   margin-bottom: 20px;
   font-family: "PT Serif";
   font-style: normal;
@@ -94,7 +118,7 @@
   font-size: 16px;
   line-height: 142.5%;
   /* or 23px */
-
+margin-right: 20px;
   color: #000000;
 
   @media screen and (min-width: 768px) {

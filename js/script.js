@@ -195,7 +195,3 @@ var isMobile = {
   },
 };
 
-if (isMobile.any()) {
-  $("body").addClass("mobile");
-}
-
